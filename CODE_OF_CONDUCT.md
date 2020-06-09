@@ -32,7 +32,7 @@ Examples of unacceptable behavior by participants include:
  professional setting
 * Removing original credits when copying
 * Reselling Rbot
-* Adding rbot to a seaprate bot other then rbot.
+* Adding rbot and or rbot code to a seaprate bot other then rbot.
 
 ## Our Responsibilities
 
