@@ -30,7 +30,8 @@ Examples of unacceptable behavior by participants include:
  address, without explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
  professional setting
-* Removing original credits when forking. 
+* Removing original credits when copying
+* Reselling Rbot
 
 ## Our Responsibilities
 
