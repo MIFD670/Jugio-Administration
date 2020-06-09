@@ -39,7 +39,7 @@ The base of the bot is free, but we offer hosting (500 robux) and setup (300 rob
 
 Reals - ItsMrReals - Programmar
 
-DeathKiller - Ryanhindman6654 - Wiki helper
+DeathKiller - Ryanhindman6654 - Wiki helper - Co owner
 
 
 ## More info
