@@ -28,7 +28,8 @@ setInterval(() => {
 
 client.on("ready", ready => {
   console.log("ready");
-  roblox.cookieLogin(config.ROBLOX);
+  roblox.setCookie (config.ROBLOX);
+  roblox.refreshCookie(config.ROBLOX);
   if (config.status.statustype === "STREAMING") {
     client.user.setPresence({
       activity: {
