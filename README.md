@@ -21,7 +21,7 @@ The base of the bot is free, but we offer hosting (500 robux) and setup (300 rob
 
 - help
 - ban
-- Verify (with role bindings and auto verify)
+- Verify (with role bindings and auto verify on server join)
 - Shout
 - Clear shout
 - promote
