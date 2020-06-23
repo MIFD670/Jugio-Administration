@@ -6,7 +6,7 @@ exports.run = async (client, message, args, config) => {
     .setTitle("Incorrect perms")
     .setColor("GREEN")
     .setDescription(
-      `You are the same or lower rank then the user you want to ban, Or you have no perms!`
+      `You are the same or lower rank then the user you want to kick, Or you have no perms!`
     );
   if (message.member.roles.cache.has(config.discordbotcmdsrole)) {
     let user = message.mentions.users.first();
@@ -22,10 +22,10 @@ exports.run = async (client, message, args, config) => {
           .addField("Kick reason:", reason, true)
           .addField("User to be Kicked:", `<@${user.id}>`, true);
         const uhavebeenbaned = new discord.MessageEmbed()
-          .setTitle("You have been banned!")
+          .setTitle("You have been kicked!")
           .setColor("GREEN")
           .setDescription(
-            `Hello <@${user.id}>, You have kicked read this embed for more info! `
+            `Hello <@${user.id}>, You have been kicked read this embed for more info! `
           )
           .addField("Kick reason:", reason, true)
           .addField("Kicker:", `<@${banner.id}>`, true);
@@ -40,12 +40,12 @@ exports.run = async (client, message, args, config) => {
           .setTitle("There has been a error.")
           .setColor("GREEN")
           .setDescription(
-            `There has been a un known error, Please check the bot owner to check logs..`
+            `There has been a unknown error, Please check the bot owner to check logs..`
           );
         const cancel = new discord.MessageEmbed()
           .setTitle("Canceled ban.")
           .setColor("GREEN")
-          .setDescription(`I have canceled banning`);
+          .setDescription(`I have canceled kicking`);
         const banlog = new discord.MessageEmbed()
           .setTitle("Discord action!")
           .setColor("GREEN")
