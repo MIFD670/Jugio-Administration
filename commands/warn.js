@@ -22,7 +22,7 @@ exports.run = async (client, message, args, config) => {
           .addField("Warn reason:", reason, true)
           .addField("User to be warned:", `<@${user.id}>`, true);
         const uhavebeenbaned = new discord.MessageEmbed()
-          .setTitle("You have been banned!")
+          .setTitle("You have been warned!")
           .setColor("GREEN")
           .setDescription(
             `Hello <@${user.id}>, You have Warned read this embed for more info! `
@@ -34,8 +34,8 @@ exports.run = async (client, message, args, config) => {
           .setTitle("I have Warned!")
           .setColor("GREEN")
           .setDescription(`I have Warned <@${user.id}>. `)
-          .addField("Kick reason:", reason, true)
-          .addField("User kicked:", `<@${user.id}>`, true);
+          .addField("Warn reason:", reason, true)
+          .addField("User warned:", `<@${user.id}>`, true);
         const error = new discord.MessageEmbed()
           .setTitle("There has been a error.")
           .setColor("GREEN")
